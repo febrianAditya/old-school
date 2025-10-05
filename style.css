@@ -1,0 +1,35 @@
+#informasi-dasar {
+    float: left;
+    width: 48%;
+}
+
+#pendidikan {
+    float: right;
+    width: 48%;
+}
+
+
+/* ini tidak diizinkan satu baris karena div ada isinya */
+/* #informasi-dasar {
+    display: inline;
+}
+
+#pendidikan {
+    display: inline;
+} */
+/* kecuali pakai inline-block, karena mengabaikan whitespace */
+
+input, textarea {
+    width: 80%;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+label {
+    display: block;
+}
+
+#kontakSaya {
+    text-align: center;
+}

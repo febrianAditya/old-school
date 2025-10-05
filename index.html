@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- standar encoding karakter UTF-8 -->
+        <meta charset="UTF-8">
+
+        <!-- memberi tahu browser control dimensi halaman web agar terlihat baik disemua perangkat -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Personal Website</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div>
+            <h1>Data Diri [Nama Lengkap]</h1>
+            <p>Seorang Calon Web Developer | Peserta ODP BNI 343</p>
+        </div>
+
+        <hr> 
+            
+        <div id="informasi-dasar">
+            <h2>Informasi Kontak & Profil</h2>
+            
+            <ul>
+                <li><strong>Nama:</strong> [Isi Nama Lengkap]</li>
+                <li><strong>Tanggal Lahir:</strong> [Isi Tanggal Lahir]</li>
+                <li><strong>Email:</strong>[Isi Email]</li>
+                <li><strong>Telepon:</strong> [Isi Nomor Telepon]</li>
+                <li><strong>Alamat:</strong> [Isi Alamat Domisili]</li>
+            </ul>
+        </div>
+
+        <div id="pendidikan" >
+            <h2>Riwayat Pendidikan</h2>
+            
+            <article>
+                <h3>[Nama Institusi/Sekolah]</h3>
+                <p><strong>Jenjang:</strong> [SD/SMP/SMA/S1] | <strong>Tahun:</strong> [Mulai] - [Selesai]</p>
+                <p>Deskripsi singkat tentang pencapaian atau jurusan.</p>
+            </article>
+            
+            <article>
+                <h3>[Institusi Berikutnya]</h3>
+                <p><strong>Jenjang:</strong> [S1/S2/Kursus] | <strong>Tahun:</strong> [Mulai] - [Selesai]</p>
+            </article>
+        </div>
+            
+        <hr style="clear: both;"> 
+
+        <h2>Kontak Saya</h2>
+
+        <div id="kontakSaya">
+            <div>
+                <label for="nama">Nama Lengkap:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+
+            <div>
+                <label for="email">Alamat Email:</label>
+                <input type="email" id="email" name="email" required placeholder="contoh@domain.com">
+            </div>
+
+            <div>
+                <label for="pesan">Pesan/Komentar:</label>
+                <textarea id="pesan" name="pesan" rows="5" required></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Kirim Kontak</button>
+            </div>
+        </div>
+
+        
+
+    </body>
+</html>
